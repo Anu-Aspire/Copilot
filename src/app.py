@@ -21,62 +21,6 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 
 # In-memory activity database
 activities = {
-    {
-        "Chess Club": {
-            "description": "Learn strategies and compete in chess tournaments",
-            "schedule": "Fridays, 3:30 PM - 5:00 PM",
-            "max_participants": 12,
-            "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
-        },
-        "Programming Class": {
-            "description": "Learn programming fundamentals and build software projects",
-            "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
-            "max_participants": 20,
-            "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
-        },
-        "Gym Class": {
-            "description": "Physical education and sports activities",
-            "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
-            "max_participants": 30,
-            "participants": ["john@mergington.edu", "olivia@mergington.edu"]
-        },
-        "Basketball Team": {
-            "description": "Competitive basketball practice and games",
-            "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
-            "max_participants": 15,
-            "participants": ["alex@mergington.edu"]
-        },
-        "Tennis Club": {
-            "description": "Tennis training and friendly matches",
-            "schedule": "Tuesdays and Thursdays, 3:45 PM - 5:15 PM",
-            "max_participants": 10,
-            "participants": ["grace@mergington.edu"]
-        },
-        "Art Studio": {
-            "description": "Painting, drawing, and visual arts creation",
-            "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
-            "max_participants": 18,
-            "participants": ["isabella@mergington.edu", "noah@mergington.edu"]
-        },
-        "Drama Club": {
-            "description": "Theater performances and acting workshops",
-            "schedule": "Fridays, 4:00 PM - 5:30 PM",
-            "max_participants": 20,
-            "participants": ["lucas@mergington.edu"]
-        },
-        "Robotics Club": {
-            "description": "Design and build robots for competitions",
-            "schedule": "Mondays and Thursdays, 4:00 PM - 5:30 PM",
-            "max_participants": 16,
-            "participants": ["ava@mergington.edu", "liam@mergington.edu"]
-        },
-        "Science Olympiad": {
-            "description": "Compete in science and STEM competitions",
-            "schedule": "Tuesdays, 3:30 PM - 5:00 PM",
-            "max_participants": 14,
-            "participants": ["maya@mergington.edu"]
-        }
-    }
     "Chess Club": {
         "description": "Learn strategies and compete in chess tournaments",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
@@ -94,6 +38,42 @@ activities = {
         "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+    },
+    "Basketball Team": {
+        "description": "Competitive basketball practice and games",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 15,
+        "participants": ["alex@mergington.edu"]
+    },
+    "Tennis Club": {
+        "description": "Tennis training and friendly matches",
+        "schedule": "Tuesdays and Thursdays, 3:45 PM - 5:15 PM",
+        "max_participants": 10,
+        "participants": ["grace@mergington.edu"]
+    },
+    "Art Studio": {
+        "description": "Painting, drawing, and visual arts creation",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 18,
+        "participants": ["isabella@mergington.edu", "noah@mergington.edu"]
+    },
+    "Drama Club": {
+        "description": "Theater performances and acting workshops",
+        "schedule": "Fridays, 4:00 PM - 5:30 PM",
+        "max_participants": 20,
+        "participants": ["lucas@mergington.edu"]
+    },
+    "Robotics Club": {
+        "description": "Design and build robots for competitions",
+        "schedule": "Mondays and Thursdays, 4:00 PM - 5:30 PM",
+        "max_participants": 16,
+        "participants": ["ava@mergington.edu", "liam@mergington.edu"]
+    },
+    "Science Olympiad": {
+        "description": "Compete in science and STEM competitions",
+        "schedule": "Tuesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 14,
+        "participants": ["maya@mergington.edu"]
     }
 }
 
